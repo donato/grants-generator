@@ -225,7 +225,35 @@ mysql_grants:
             -
             grant: select,insert,update,delete,execute
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         doug:
             -
             grant: select,insert,update,delete,execute
@@ -576,7 +604,35 @@ mysql_grants:
             -
             grant: select,insert,update,delete,execute
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         kelvin:
             -
             grant: select,insert,update,delete,execute
@@ -927,7 +983,35 @@ mysql_grants:
             -
             grant: select,insert,update,delete,execute
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         leo:
             -
             grant: select,insert,update,delete,execute
@@ -1278,7 +1362,35 @@ mysql_grants:
             -
             grant: select,insert,update,delete,execute
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         rick:
             -
             grant: select,insert,update,delete,execute
@@ -1504,7 +1616,35 @@ mysql_grants:
             -
             grant: select,insert,update,delete,execute
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         sahil:
             -
             grant: select,insert,update,delete,execute
@@ -1605,7 +1745,35 @@ mysql_grants:
             -
             grant: select,insert,update,delete,execute
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         seda:
             -
             grant: select,insert,update,delete,execute
@@ -1706,7 +1874,35 @@ mysql_grants:
             -
             grant: select,insert,update,delete,execute
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         analyticsadmin:
             -
             grant: select,insert,update,delete,execute
@@ -1831,7 +2027,35 @@ mysql_grants:
             -
             grant: select,insert,update,delete,execute
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
             -
             grant: select,insert,update,delete,execute
             database: ltanalytics
@@ -2040,7 +2264,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         bobby:
             -
             grant: select
@@ -2085,7 +2337,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         brendan:
             -
             grant: select
@@ -2130,7 +2410,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         cmuller:
             -
             grant: select
@@ -2175,7 +2483,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         danny:
             -
             grant: select
@@ -2220,7 +2556,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         elissa:
             -
             grant: select
@@ -2265,7 +2629,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         eric:
             -
             grant: select
@@ -2310,7 +2702,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         evan:
             -
             grant: select
@@ -2355,7 +2775,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         faisal:
             -
             grant: select
@@ -2400,7 +2848,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         franklin:
             -
             grant: select
@@ -2445,7 +2921,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         henry:
             -
             grant: select
@@ -2490,7 +2994,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         jenny:
             -
             grant: select
@@ -2535,7 +3067,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         jeroen:
             -
             grant: select
@@ -2580,7 +3140,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         jhoang:
             -
             grant: select
@@ -2625,7 +3213,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         jluther:
             -
             grant: select
@@ -2670,7 +3286,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         joel:
             -
             grant: select
@@ -2715,7 +3359,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         monica:
             -
             grant: select
@@ -2760,7 +3432,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         mstephan:
             -
             grant: select
@@ -2805,7 +3505,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         nbrites:
             -
             grant: select
@@ -2850,7 +3578,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         paul:
             -
             grant: select
@@ -2895,7 +3651,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         rcoughlin:
             -
             grant: select
@@ -2940,7 +3724,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         rob:
             -
             grant: select
@@ -2985,7 +3797,35 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
         travis:
             -
             grant: select
@@ -3030,4 +3870,32 @@ mysql_grants:
             -
             grant: select
             database: jw_network
-            table: '*'
+            table: 'QoEPlayerReportDaily'
+            -
+            grant: select
+            database: jw_network
+            table: 'QoEPlayerReportDailyUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'BattlingBrowsersReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'CleverClientaReportIntervalUpdates'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportInterval'
+            -
+            grant: select
+            database: jw_network
+            table: 'DynamicDomainsReportIntervalUpdates'
