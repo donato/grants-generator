@@ -1,0 +1,17 @@
+{
+  "data": {
+    "roles": ["analytics-team", "discovery-team"]
+  },
+
+  "sales": {
+    "roles": ["explorer"]
+  },
+
+  "product": {
+    "roles": ["explorer"]
+  },
+
+  "system": {
+     "roles": ["pipeline_process"]
+  }
+}

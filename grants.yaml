@@ -1,0 +1,3033 @@
+mysql_grants:
+    mdb-analytics-vpc-01:
+        alex:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ContentCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAutoClassifierLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAccountCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'BizModelCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'NaughtyKeywords'
+            -
+            grant: select,insert,update,delete,execute
+            database: discovery
+            table: '*'
+        donato:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: '*'
+        doug:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ContentCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAutoClassifierLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAccountCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'BizModelCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'NaughtyKeywords'
+            -
+            grant: select,insert,update,delete,execute
+            database: discovery
+            table: '*'
+        jamie:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ContentCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAutoClassifierLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAccountCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'BizModelCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'NaughtyKeywords'
+            -
+            grant: select,insert,update,delete,execute
+            database: discovery
+            table: '*'
+        kamil:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: '*'
+        kelvin:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ContentCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAutoClassifierLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAccountCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'BizModelCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'NaughtyKeywords'
+            -
+            grant: select,insert,update,delete,execute
+            database: discovery
+            table: '*'
+        linda:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ContentCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAutoClassifierLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAccountCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'BizModelCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'NaughtyKeywords'
+            -
+            grant: select,insert,update,delete,execute
+            database: discovery
+            table: '*'
+        lee:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: '*'
+        leo:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ContentCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAutoClassifierLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAccountCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'BizModelCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'NaughtyKeywords'
+            -
+            grant: select,insert,update,delete,execute
+            database: discovery
+            table: '*'
+        morrigan:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ContentCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAutoClassifierLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAccountCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'BizModelCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'NaughtyKeywords'
+            -
+            grant: select,insert,update,delete,execute
+            database: discovery
+            table: '*'
+        priyanka:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: '*'
+        rick:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ContentCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAutoClassifierLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAccountCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'BizModelCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'NaughtyKeywords'
+            -
+            grant: select,insert,update,delete,execute
+            database: discovery
+            table: '*'
+        rohit:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: '*'
+        sahil:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: '*'
+        seda:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: '*'
+        analyticsadmin:
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDailyUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ConfigSettings_BAK'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainCategoryMapping'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'KafkaOffsetsByPeriodicRun'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LatestPublisherReportDate'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'LuigiTaskStatus'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_runs'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'periodic_transactions'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'PingFiles'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ReportingDBBlacklist'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Shards'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WaitLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: analytics_unittests
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ContentCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAutoClassifierLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsAccountCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DomainsCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'BizModelCategories'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'NaughtyKeywords'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: '*'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountDeviceMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyAccountGeoMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyDeviceMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyDomainMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyTopVideosByCategory'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyTopVideosByCountry'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'DailyTopVideosOverall'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyMetrics'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyTopVideosByCategory'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyTopVideosByCountry'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'MonthlyTopVideosOverall'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersAdBlockReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersAdBlockReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersGeoReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'BattlingBrowsersGeoReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'ContinentalDriftsCountryReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'ContinentalDriftsCountryReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'ContinentalDriftsReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'ContinentalDriftsReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'ImpressiveImpressionsAdServerReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'ImpressiveImpressionsAdServerReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'ImpressiveImpressionsRenderingReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'ImpressiveImpressionsRenderingReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'VexingVideosCDNReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'VexingVideosCDNReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'VexingVideosFormatReportInterval'
+            -
+            grant: select,insert,update,delete,execute
+            database: jw_network
+            table: 'VexingVideosFormatReportIntervalUpdates'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'ProcLog'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'AccountVideoURLRules'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'HourlyAccountVideoMetrics2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'aggregators'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'hbase_inserts'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'Migrations'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TempStreamingData'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TempStreamingData2'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'TransformsDevice_copy'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WeeklyTopVideosByCategory'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WeeklyTopVideosByCountry'
+            -
+            grant: select,insert,update,delete,execute
+            database: ltanalytics
+            table: 'WeeklyTopVideosOverall'
+        blichtenstein:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        bobby:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        brendan:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        cmuller:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        danny:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        elissa:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        eric:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        evan:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        faisal:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        franklin:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        henry:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        jenny:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        jeroen:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        jhoang:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        jluther:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        joel:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        monica:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        mstephan:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        nbrites:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        paul:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        rcoughlin:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        rob:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
+        travis:
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AdScheduleReportDaily'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'AnalyticsAccounts'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountDomainMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMediaMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyAccountMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'DailyPlayerVersionMetrics'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'MonthlyMetrics2'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsDevice'
+            -
+            grant: select
+            database: ltanalytics
+            table: 'TransformsGeo'
+            -
+            grant: select
+            database: jw_network
+            table: '*'
