@@ -46,11 +46,6 @@
   },
 
 
-  "analyticsadmin": {
-    "roles": ["pipeline_process"]
-  },
-
-
   "blichtenstein": {
     "roles": ["explorer"]
   },
