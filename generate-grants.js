@@ -1,7 +1,7 @@
 let _ = require('lodash');
-let Products = require('./products.json');
-let Users = require('./users.json');
-let Roles = require('./roles.json');
+let Products = require('./json/products.json');
+let Users = require('./json/users.json');
+let Roles = require('./json/roles.json');
 
 
 function printUserPermissions(grants, db, table) {
@@ -14,7 +14,6 @@ function printUserPermissions(grants, db, table) {
     return txt;
 }
     
-
 
 
 console.log('mysql_grants:');

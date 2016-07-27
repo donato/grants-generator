@@ -1,0 +1,116 @@
+development:
+    -
+        database: ltanalytics
+        table:
+            - AdScheduleReportDailyUpdates
+            - ConfigSettings
+            - ConfigSettings_BAK
+            - DomainCategoryMapping
+            - KafkaOffsetsByPeriodicRun
+            - LatestPublisherReportDate
+            - LuigiTaskStatus
+            - periodic_runs
+            - periodic_transactions
+            - PingFiles
+            - ReportingDBBlacklist
+            - Shards
+            - WaitLog
+    -
+        database: analytics_unittests
+        table:
+            - '*'
+daily_pipeline:
+    -
+        database: ltanalytics
+        table:
+            - AdScheduleReportDaily
+            - AnalyticsAccounts
+            - DailyAccountDomainMetrics
+            - DailyAccountMediaMetrics
+            - DailyAccountMetrics
+            - DailyAccountMetrics2
+            - DailyPlayerVersionMetrics
+            - MonthlyMetrics2
+            - TransformsDevice
+            - TransformsGeo
+classification:
+    -
+        database: ltanalytics
+        table:
+            - ContentCategories
+            - DomainsAutoClassifierLog
+            - DomainsAccountCategories
+            - DomainsCategories
+            - BizModelCategories
+            - NaughtyKeywords
+trends:
+    -
+        database: jw_network
+        table:
+            - QoEPlayerReportDaily
+            - QoEPlayerReportDailyUpdates
+            - BattlingBrowsersReportInterval
+            - BattlingBrowsersReportIntervalUpdates
+            - CleverClientaReportInterval
+            - CleverClientaReportIntervalUpdates
+            - DynamicDomainsReportInterval
+            - DynamicDomainsReportIntervalUpdates
+discovery:
+    -
+        database: discovery
+        table:
+            - '*'
+deprecated_general:
+    -
+        database: ltanalytics
+        table:
+            - ProcLog
+            - AccountVideoURLRules
+            - HourlyAccountVideoMetrics2
+            - aggregators
+            - hbase_inserts
+            - Migrations
+            - TempStreamingData
+            - TempStreamingData2
+            - TransformsDevice_copy
+            - WeeklyTopVideosByCategory
+            - WeeklyTopVideosByCountry
+            - WeeklyTopVideosOverall
+deprecated_daily:
+    -
+        database: ltanalytics
+        table:
+            - DailyAccountDeviceMetrics
+            - DailyAccountGeoMetrics
+            - DailyDeviceMetrics
+            - DailyDomainMetrics
+            - DailyMetrics
+            - DailyMetrics2
+            - DailyTopVideosByCategory
+            - DailyTopVideosByCountry
+            - DailyTopVideosOverall
+            - MonthlyMetrics
+            - MonthlyTopVideosByCategory
+            - MonthlyTopVideosByCountry
+            - MonthlyTopVideosOverall
+deprecated_trends:
+    -
+        database: jw_network
+        table:
+            - BattlingBrowsersAdBlockReportInterval
+            - BattlingBrowsersAdBlockReportIntervalUpdates
+            - BattlingBrowsersGeoReportInterval
+            - BattlingBrowsersGeoReportIntervalUpdates
+            - ContinentalDriftsCountryReportInterval
+            - ContinentalDriftsCountryReportIntervalUpdates
+            - ContinentalDriftsReportInterval
+            - ContinentalDriftsReportIntervalUpdates
+            - ImpressiveImpressionsAdServerReportInterval
+            - ImpressiveImpressionsAdServerReportIntervalUpdates
+            - ImpressiveImpressionsRenderingReportInterval
+            - ImpressiveImpressionsRenderingReportIntervalUpdates
+            - VexingVideosCDNReportInterval
+            - VexingVideosCDNReportIntervalUpdates
+            - VexingVideosFormatReportInterval
+            - VexingVideosFormatReportIntervalUpdates
+
