@@ -6,7 +6,6 @@ discovery-team:
             - insert
             - update
             - delete
-            - execute
         products:
             - development
             - daily_pipeline
@@ -19,7 +18,6 @@ analytics-team:
             - insert
             - update
             - delete
-            - execute
         products:
             - development
             - daily_pipeline
@@ -38,7 +36,6 @@ pipeline_process:
             - insert
             - update
             - delete
-            - execute
         products:
             - development
             - daily_pipeline
