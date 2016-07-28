@@ -2,14 +2,14 @@
   "discovery-team": [
     {
       "ldap_group": "data-team",
-      "grant": ["select", "insert", "update", "delete", "execute"],
+      "grant": ["select", "insert", "update", "delete"],
       "products": ["development", "daily_pipeline", "classification", "discovery"]
     }
   ],
 
   "analytics-team": [
     {
-      "grant": ["select", "insert", "update", "delete", "execute"],
+      "grant": ["select", "insert", "update", "delete"],
       "products": ["development", "daily_pipeline", "trends"]
     }
   ],
@@ -23,7 +23,7 @@
 
   "pipeline_process": [
     {
-      "grant": ["select", "insert", "update", "delete", "execute"],
+      "grant": ["select", "insert", "update", "delete"],
       "products": ["development", "daily_pipeline", "classification", "trends", "deprecated_daily", "deprecated_trends", "deprecated_general"]
     }
   ]

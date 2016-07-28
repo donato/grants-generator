@@ -2,1905 +2,1905 @@ mysql_grants:
     mdb-analytics-vpc-01:
         alex:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ContentCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAutoClassifierLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAccountCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'BizModelCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'NaughtyKeywords'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: discovery
                 table: '*'
         donato:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportIntervalUpdates'
         doug:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ContentCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAutoClassifierLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAccountCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'BizModelCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'NaughtyKeywords'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: discovery
                 table: '*'
         jamie:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ContentCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAutoClassifierLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAccountCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'BizModelCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'NaughtyKeywords'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: discovery
                 table: '*'
         kamil:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportIntervalUpdates'
         kelvin:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ContentCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAutoClassifierLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAccountCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'BizModelCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'NaughtyKeywords'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: discovery
                 table: '*'
         linda:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ContentCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAutoClassifierLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAccountCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'BizModelCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'NaughtyKeywords'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: discovery
                 table: '*'
         lee:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportIntervalUpdates'
         leo:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ContentCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAutoClassifierLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAccountCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'BizModelCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'NaughtyKeywords'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: discovery
                 table: '*'
         morrigan:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ContentCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAutoClassifierLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAccountCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'BizModelCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'NaughtyKeywords'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: discovery
                 table: '*'
         priyanka:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportIntervalUpdates'
         rick:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ContentCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAutoClassifierLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsAccountCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainsCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'BizModelCategories'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'NaughtyKeywords'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: discovery
                 table: '*'
         rohit:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportIntervalUpdates'
         sahil:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportIntervalUpdates'
         seda:
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ConfigSettings_BAK'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DomainCategoryMapping'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'KafkaOffsetsByPeriodicRun'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LatestPublisherReportDate'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'LuigiTaskStatus'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_runs'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'periodic_transactions'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'PingFiles'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'ReportingDBBlacklist'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'Shards'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'WaitLog'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: analytics_unittests
                 table: '*'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AdScheduleReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'AnalyticsAccounts'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountDomainMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMediaMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyAccountMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'DailyPlayerVersionMetrics'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'MonthlyMetrics2'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsDevice'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: ltanalytics
                 table: 'TransformsGeo'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDaily'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'QoEPlayerReportDailyUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'BattlingBrowsersReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'CleverClientaReportIntervalUpdates'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportInterval'
             -
-                grant: select,insert,update,delete,execute
+                grant: select,insert,update,delete
                 database: jw_network
                 table: 'DynamicDomainsReportIntervalUpdates'
         blichtenstein:
