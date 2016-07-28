@@ -7,9 +7,9 @@ let Roles = require('./json/roles.json');
 function printUserPermissions(grants, db, table) {
     let txt =
         '            -\n' +
-        '            grant: ' + grants.join(',') + '\n' +
-        '            database: ' + db + '\n' +
-        '            table: \''+ table +'\'';
+        '                grant: ' + grants.join(',') + '\n' +
+        '                database: ' + db + '\n' +
+        '                table: \''+ table +'\'';
     console.log(txt);
     return txt;
 }
