@@ -55,6 +55,11 @@ trends:
             - CleverClientaReportIntervalUpdates
             - DynamicDomainsReportInterval
             - DynamicDomainsReportIntervalUpdates
+feeds:
+    -
+        database: ltanalytics
+        table:
+            - Feeds_KPI
 discovery:
     -
         database: discovery

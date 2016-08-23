@@ -10,6 +10,7 @@ discovery-team:
             - development
             - daily_pipeline
             - classification
+            - feeds
             - discovery
 analytics-team:
     -
@@ -29,6 +30,7 @@ explorer:
         products:
             - daily_pipeline
             - trends
+            - feeds
 pipeline_process:
     -
         grant:
@@ -41,6 +43,7 @@ pipeline_process:
             - daily_pipeline
             - classification
             - trends
+            - feeds
             - deprecated_daily
             - deprecated_trends
             - deprecated_general
