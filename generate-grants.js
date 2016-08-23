@@ -1,7 +1,9 @@
 let _ = require('lodash');
-let Products = require('./json/products.json');
-let Users = require('./json/users.json');
-let Roles = require('./json/roles.json');
+let YAML = require('yamljs');
+
+let Products = YAML.load('./yaml/products.yml');
+let Users = YAML.load('./yaml/users.yml');
+let Roles = YAML.load('./yaml/roles.yml');
 
 
 function printUserPermissions(grants, db, table) {
